@@ -1,0 +1,8 @@
+.boborder {
+    border: 10px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 5px #888888;
+}

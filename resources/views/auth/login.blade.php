@@ -5,6 +5,15 @@
     <form method="POST" action="{{ route('login') }}">
         @csrf
 
+
+        <a href="/">
+            @include('components.logo')
+        </a>
+
+        <p class="text-blue-600 text-2xl text-center font-normal w-full">
+            Авторизация
+        </p>
+
         <!-- Email Address -->
         <div>
             <x-input-label for="email" :value="__('Логин')" />

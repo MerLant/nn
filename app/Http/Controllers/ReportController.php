@@ -20,6 +20,11 @@ class ReportController extends Controller
         return view("report.index", compact("reports"));
     }
 
+    public function create()
+    {
+        return view("report.create");
+    }
+
     public function destroy(Report $report)
     {
         $report->delete();
